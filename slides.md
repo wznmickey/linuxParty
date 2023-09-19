@@ -1,9 +1,13 @@
-<!-- slide -->
-# What is Linux
+---
+marp: true
+---
 
-<!-- slide -->
+# What is Linux
+---
+
 Linux is 
-<!-- slide -->
+
+---
 # Ways to get a Linux system
 
 - Use WSL
@@ -11,16 +15,17 @@ Linux is
 - Install a dual boot system
 - Only use Linux
 
-<!-- slide -->
 
+---
 ## Use WSL
 
-<!-- slide -->
+
+---
 ## Use VMware
-<!-- slide -->
+---
 ## Install a dual boot system
-<!-- slide -->
+---
 ## Only use Linux
-<!-- slide -->
+---
 # Common issues
 
