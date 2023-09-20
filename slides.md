@@ -11,11 +11,11 @@ FOCS Group
 
 # What is Linux
 
-Linux kernel has just past its 32-nd year birthday.[^1] In many devices including web servers, desktop computers and mobile devices, you can find Linux kernel.
+Linux kernel has just past its 32nd birthday.[^1] In many devices including web servers, desktop computers and mobile devices, you can find Linux kernel.
 
 Linux kernel is not easy to manage, so people create and add many components and release various distributions.
 
-Today, we will help you to install a Linux Desktop distribution on your computer. You can choose Ubuntu, one of popular Linux distributions, or a Debian based distribution which is developed to be used for JI courses. Also you can choose other distributions.
+Today, we will help you to install a Linux distribution on your computer. You can choose Ubuntu, one of popular Linux distributions, or a Debian based distribution which is developed to be used for JI courses. Also you can choose other distributions.
 
 ---
 # Ways to get a Linux system
@@ -86,13 +86,13 @@ Here are some remainders.
 
 1. Start Terminal.
 2. Type `apt update` (apt is the package manager for debian-based systems. Yes, ubuntu is debian-based system.)
-3. Install git, compiles and other tools you want to use by `apt`.
+3. Install git, compiles and other tools you want to use by `apt install <name>`.
 
 ---
 # Well known tools you could use in Linux
 - Chrome, Edge, 360 Browser ... -> Firefox
 - Microsoft Office -> Libre office, WPS(not opensource)
 - App store -> apt (and many UI store integrated with apt)
-- Chinese Input system -> Sogou Pinyin, Rime
+- Chinese Input tools -> Sogou Pinyin(not opensource), Rime
 
 [^1]: https://www.phoronix.com/news/Linux-6.6-rc2-Released
