@@ -14,15 +14,17 @@ FOCS Group
 
 # What is Linux
 
-Linux kernel has just past its 32nd birthday.[^1] In many devices including web servers, desktop computers and mobile devices, you can find Linux kernel.
+Linux has just past its 32nd birthday. In many devices, including (almost all) web servers, Android smartphones, electric cars, and of course on Steam Decks, you can find Linux.
 
-Linux kernel is not easy to manage, so people create and add many components and release various distributions.
+Linux is an operating system *kernel*. Kernel means "core; central part" in English. Linux on itself can only respond to hardware events; there are no ways to interact with the Linux kernel directly.
 
-Today, we will help you to install a Linux distribution on your computer. You can choose Ubuntu, one of popular Linux distributions, or a Debian based distribution which is developed to be used for JI courses. Also you can choose other distributions.
+People bundle software (browsers, file managers, etc.) together with the Linux kernel to form a functional operating system. Many different people and companies bundle various software with Linux, each coming with their own configurations (wallpapers, theme, etc.) Various "flavors" of the Linux operating system, or *Linux distributions*, are thus created.
+
+Today, we will help you to install a Linux distribution on your computer. You can choose Ubuntu, one of the most popular Linux distributions; or choose FOCS Debian, a Debian-based distribution which is developed by and for fellow JIers. Also you can choose other distributions.
 
 ---
 
-# Linux and Its Distributions
+# Linux and Linux Distributions
 
 ![h:550px](./choose%20your%20system.jpg)
 
@@ -33,7 +35,7 @@ Screenshot from LinusTechTips
 
 # FOCS Debian
 
-- Has similar interface to Windows 10
+- Features a similar interface to Windows 10. Windows users will feel at home
 - Developed from base system to avoid redundant software as in the official Debian images
 - Aims to lower the time spent by students on installing software during labs
 - Has the following software pre-installed:
@@ -57,89 +59,46 @@ Screenshot from LinusTechTips
 </tr></table> 
 
 ---
+# Benefits of having a Linux system
+
+- Survive 151, 280, 482 and other JI courses without having to worry about configuring your system
+- More control of your computer; no disturbing desktop ads anymore, no worrying about Big Brother watching you ;)
+- A bonus point on your resume that can help you find a job
+- Most importantly...
+- Linux is fun! Welcome to the world of FOSS, Free and Open Source Software!
+
+---
 
 # Ways to get a Linux system
 
-- Use WSL
-- Use virtual machine 
+- Use Windows Subsystem on Linux - WSL
+- Use a virtual machine 
 - Install a dual boot system
-- Only use Linux
+- Only use Linux on your computer
 
 ---
-## Use WSL
+# Administering a Linux system
 
-If you use windows, it is the easiest way for you to have a Linux environment.
-
-If you want windows do everything (having no choices on installation), 
-1. start Powershell in administer mode.
-2. Type `wsl --install`.
-3. Wait and then reboot.
-
-https://learn.microsoft.com/en-gb/windows/wsl/install
-
-If your windows version is old, please follow https://learn.microsoft.com/en-gb/windows/wsl/install-manual
-
-To see the detail steps, check **WSL Installation Guidence**.
+Linux is pretty much designed around a command-line shell. A _shell_ is a program that interacts with the operating system _kernel_: you issue commands via the shell, and the OS does it for you. In order to master Linux, some basic shell knowledge is necessary.
 
 ---
+# Alternatives of common Windows tools
+- Chrome, Edge, 360 Browser ... -> Firefox, Chromium
+  - Install by the App Store provided by your distribution, or
+  - Type in `sudo apt install firefox` or `sudo apt install chromium` in a terminal to install them (Debian and Ubuntu)
 
-## Use virtual machine 
-You may choose VirtualBox or VMware.
-
-https://software.sjtu.edu.cn/List/VirtualBox/virtualbox
-
-1. Get the image (an `.iso` file) from the net.
-2. Download and install the virtual machine software you want to use.
-3. In the software, choose to create a virtual machine.
-4. Choose the iso file you get.
-5. Follow the instructions.
+- Microsoft Office -> LibreOffice, WPS Office
+  - It is likely that you have LibreOffice pre-installed on your system
+  - You may download WPS Office from the Internet if you wish
+- Your distribution likely provides you with a App Store. You may install apps there
+- Chinese Input Method -> `ibus` (easier to configure, bundled with Ubuntu by default), `fcitx5` (more powerful and more features)
 
 ---
 
-## Install a dual boot system
+# Where can I find help and support
 
-Be careful! Your data may be lost. **Make a backup** before you do the following steps.
-
-1. Have a free disk partition. Have a USB disk.
-2. Get the image (an `.iso` file) from the net.
-3. Use tools like [rufus](https://rufus.ie/en/) to burn the iso into your USB disk.
-4. Search online how to enter bios or uefi(different laptops require different key.) 
-5. shutdown and then boot and enter bios or uefi.
-6. Enable start from USB. Choose your USB disk to boot. Disable Secure Boot.
-7. Boot and follow the setup steps.
-
-When you choose the disk, be sure to check whether it is your **prepared free disk**.
-
----
-## Only use Linux
-
-The same as dual boot system. The only difference is to choose to install on your current system disk. 
-
-*Your current system will **disappear**. All the data on your system disk will be **deleted**.*
-
----
-
-# Setup your system
-
-If you use WSL, your system will be setup by windows. You do not need to do anything.
-
-Follow the instructions on the screen.
-
-Here are some remainders.
-1. Choose English. Do not use Chinese. It may cause many issues.
-2. When choose the disk, be ***careful*** if you are not using virtual machine. It is recommend to have one partition for `/` and one partition for `/home/{yourname}` because you may have serval times erasing the system and reinstalling the system. 
----
-# Start to use
-
-1. Start Terminal.
-2. Type `apt update` (apt is the package manager for debian-based systems. Yes, ubuntu is a debian-based system.)
-3. Install git, compiles and other tools you want to use by `apt install <name>`.
-
----
-# Well known tools you could use in Linux
-- Chrome, Edge, 360 Browser ... -> Firefox
-- Microsoft Office -> Libre office, WPS(not opensource)
-- App store -> apt (and many UI store integrated with apt)
-- Chinese Input tools -> Sogou Pinyin(not opensource), Rime
-
-[^1]: https://www.phoronix.com/news/Linux-6.6-rc2-Released
+- First things first: Search on **Google** in **English**. Searching on Baidu won't return useful results in most cases :)
+- Check your distro's Wiki. For example, Ubuntu Wiki is hosted at https://wiki.ubuntu.com
+- Arch Linux Wiki often have know-how that you want. Check https://wiki.archlinux.org if you can't find help on your distro Wiki
+- Join FOCS Mattermost! We are available at https://focs.ji.sjtu.edu.cn/mm at any time. You are always welcomed!
+- You may also join a local Linux User Group. SJTU have its own Linux User Group; check https://sjtug.org for how to join them
