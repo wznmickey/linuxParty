@@ -87,7 +87,7 @@ If your windows version is old, please follow https://learn.microsoft.com/en-gb/
 
 ![](https://raw.githubusercontent.com/Hydraallen/images/master/img/1280X1280.PNG)
 
-*This article uses a* [***CC BY-NC 2.0\***](https://creativecommons.org/licenses/by-nc/2.0/) *license.*
+*This article uses a* [***CC BY-NC 2.0***](https://creativecommons.org/licenses/by-nc/2.0/) *license.*
 
 ### Windows (using wsl)
 
