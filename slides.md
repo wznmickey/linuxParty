@@ -18,6 +18,26 @@ Linux kernel is not easy to manage, so people create and add many components and
 Today, we will help you to install a Linux distribution on your computer. You can choose Ubuntu, one of popular Linux distributions, or a Debian based distribution which is developed to be used for JI courses. Also you can choose other distributions.
 
 ---
+
+# Linux and Its Distributions
+
+![img_v2_3b252368-3113-48ff-bc60-0b8173a994eg](https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/08978295-2f54-4b81-a447-498db65b899d)
+
+---
+
+# FOCS Debian
+
+- Has similar interface to Windows 10
+- Developed from base system to avoid redundant software as in the official Debian images
+- Aims to lower the time spent by students on installing software during labs
+- Has the following software pre-installed:
+<img align="center" width="100" height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/c02ddb98-80e8-4d07-a80a-a68c84349761">
+<img align="center" width="205" height="105" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/69f0b790-4c42-4b7e-b979-f4d6bf509e43">
+<img align="center" width="211" height="125" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/0d4d48e3-065a-46e4-88bf-0a92c6376004">
+<img align="center" width="284" height="125" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/54ce2410-b9c4-48b2-b46e-1e0c6dd3728b">
+<img align="center" width="175" height="140" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/84f54de9-6904-4157-8647-880f234d61dc">
+
+---
 # Ways to get a Linux system
 
 - Use WSL
