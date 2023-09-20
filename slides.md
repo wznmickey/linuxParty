@@ -37,12 +37,6 @@ Today, we will help you to install a Linux distribution on your computer. You ca
 <img align="center" width="284" height="125" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/54ce2410-b9c4-48b2-b46e-1e0c6dd3728b">
 <img align="center" width="175" height="140" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/84f54de9-6904-4157-8647-880f234d61dc">
 
-
-
-
-
-
-
 ---
 # Ways to get a Linux system
 
