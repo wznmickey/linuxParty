@@ -1,5 +1,8 @@
 ---
 marp: true
+footer: 2023-09-23
+header: Linux Party
+paginate: true
 ---
 # **Linux Party**
 
@@ -80,7 +83,7 @@ If your windows version is old, please follow https://learn.microsoft.com/en-gb/
 
 ---
 
-# WSL Installation Guidence
+## WSL Installation Guidence
 
 *Created by TechJI and 2023 151 TA Team.*
 *Modified by FOCS Group.*
@@ -89,16 +92,14 @@ If your windows version is old, please follow https://learn.microsoft.com/en-gb/
 
 *This article uses a* [***CC BY-NC 2.0***](https://creativecommons.org/licenses/by-nc/2.0/) *license.*
 
-### Windows (using wsl)
-
-#### Requirements
+**Requirements**
 
 - Windows 10 1709 Fall Creators Update 64bit or later.
 - Windows Subsystem for Linux feature is enabled.
 
 ---
 
-# Step 1 Enable Linux feature
+### Step 1 Enable Linux feature
 
 <table style="display: block; margin: 0 auto;"><tr>
 <td>
@@ -130,7 +131,7 @@ Think twice before using it.
 
 ---
 
-# Step 2 Check whether your PC support WSL2
+### Step 2 Check whether your PC support WSL2
    - In cmd run `systeminfo`
    - Scroll down to Hyper-V section
    - If there are 4 "Yes" OR " A hypervisor has been detected. Features required for Hyper-V will not be displayed." ("已检测到虚拟机监控程序。将不显示 Hyper-V 所需的功能。"), then your PC is OK
@@ -138,7 +139,7 @@ Think twice before using it.
 
 ---
 
-# Step 3 Setup wsl2
+### Step 3 Setup wsl2
 
 ```bash
 wsl --set-default-version 2
@@ -180,7 +181,7 @@ This might be an issue with your hardware. Please refer to section "How to Enabl
 
 ---
 
-# Step 4 Install Linux 
+### Step 4 Install Linux 
 
 - Ubuntu
 - arch
@@ -188,7 +189,7 @@ You only need choose **one**.
 
 ---
 
-# Ubuntu
+#### Ubuntu
 
 Go to Microsoft Store and search "Ubuntu"
 
@@ -220,7 +221,7 @@ $ gcc --version
 ---
 
 
-# Arch
+#### Arch
 
 You may refer to the official website.
 
@@ -317,7 +318,6 @@ $ gcc --version
 ![](./18.png)
 
 ---
-
 
 
 ## Use virtual machine 
