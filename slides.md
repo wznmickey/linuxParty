@@ -30,6 +30,7 @@ Today, we will help you to install a Linux distribution on your computer. You ca
 
 ![h:550px](https://github.com/wznmickey/linuxParty/assets/44784663/4c790df3-de1a-4674-babb-f2f75bce0fd9)
 
+Screenshot from LinusTechTips
 
 ---
 
@@ -142,14 +143,13 @@ Updating your system is also done by issuing the `upgrade` command to the packag
 
 - Chinese Input Method -> `ibus` (bundled with Ubuntu by default), `fcitx5` (more powerful and more features)
 
-- QQ, WeChat -> QQ at https://im.qq.com/linuxqq; WeChat is more trivial, search Google for details
+- QQ, WeChat -> QQ at https://im.qq.com/linuxqq; WeChat is more trivial, search online for details
 
 - Photoshop, Lightroom, Premiere Pro -> GIMP, darktable, Kdenlive
 
 - MATLAB, Mathematica, and Vivado have native Linux versions
 
-- Play games via Steam and Lutris (yes, you can play Genshin Impact)
-
+- games that do not support Linux -> Lutris 
 
 ---
 
