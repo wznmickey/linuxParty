@@ -1,12 +1,10 @@
 ---
 marp: true
-footer: 2023-09-23
-header: Linux Party
 paginate: true
 ---
 # **Linux Party**
 
-2023-09-23
+2023-09-22
 
 FOCS Group
 
@@ -14,7 +12,7 @@ FOCS Group
 
 # What is Linux
 
-Linux kernel has just past its 32nd birthday. In many devices, including web servers, smartphones, electric cars, and of course on Steam Decks, you can find Linux.
+Linux has just past its 32nd birthday. In many devices, including web servers, smartphones, electric cars, and of course on Steam Decks, you can find Linux.
 
 Linux is an operating system *kernel*. Kernel means "core; central part" in English. Linux on itself can only respond to hardware events; there are no ways to interact with the Linux kernel directly.
 
@@ -86,9 +84,14 @@ Today, we will help you to install a Linux distribution on your computer. You ca
 | Full-featured Linux                                          | No (sometimes GUI won't work)                  | Yes                                     | Yes         |
 | Easy to install                                              | Yes                                            | Yes                                     | No          |
 | Suitable for every-day use                                   | Yes                                            | No                                      | Yes         |
+
+---
+# Comparison of different installation methods
+| Benefits\Method | WSL|Virtual Machine|Dual Boot|
+|--|--|--|--|
 | Easy to customize and manage (change desktop wallpaper, tweak system parameters) | No                                             | Yes                                     | Yes         |
 | Performance                                                  | High                                           | Low                                     | Best        |
-| Hardware compatibility                                       | Adequate (sophisticated networking won't work) | Adequate (sometimes performance is low) | Good        |
+| Hardware compatibility                                       | Adequate | Adequate | Good        |
 | **Our recommendation**                                       | Just enough to survive                         | Recommended for newcomers               | Enthusiasts |
 
 ---
@@ -110,11 +113,10 @@ Today, we will help you to install a Linux distribution on your computer. You ca
 ---
 # Administering a Linux system
 
-Linux is pretty much designed around a command-line *shell* (think of it as a far more powerful version of `cmd`).x In order to master Linux, some basic shell knowledge is necessary.
+Linux is pretty much designed around a command-line *shell* (think of it as a far more powerful version of `cmd`). In order to master Linux, some basic shell knowledge is necessary.
 
 To launch a command-line shell, you may press **Ctrl**+**Alt**+**T** on Ubuntu and FOCS Debian; or you may find the application named `Terminal` in the application grid. macOS users may find themselves acquainted with the Terminal app.
 
-![image-20230921152620642](terminal.png)
 
 ---
 # Installing software
@@ -129,10 +131,9 @@ Some software (like C compilers, since they are command-line only) do require yo
 
 - openSUSE: `sudo zypper in software-name`
 
-- Arch Linux: `sudo pacman -Sy software-name`
-
 Updating your system is also done by issuing the `upgrade` command to the package manager. There is no equivalent of Windows Update.
 
+--- 
 # Alternatives of common Windows tools
 
 - Chrome, Edge, 360 Browser ... -> Firefox, Chromium
