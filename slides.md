@@ -29,7 +29,7 @@ Today, we will help you to install a Linux distribution on your computer. You ca
 
 # Linux and Linux Distributions
 
-![h:550px](./choose%20your%20system.jpg)
+![h:550px](https://github.com/wznmickey/linuxParty/assets/44784663/4c790df3-de1a-4674-babb-f2f75bce0fd9)
 
 Screenshot from LinusTechTips
 
