@@ -103,6 +103,11 @@ If you purchased your Mac after 2020, it is highly likely that your Mac features
 | **Our recommendation**                                       | Just enough to survive                         | Recommended for newcomers               | Gaining more experience |
 
 ---
+# Where to get Linux installation images
+USTC Mirror is a good starting point. It is located at https://mirrors.ustc.edu.cn
+![mirror](mirror.png)
+
+---
 
 # Some FAQ after installing Linux
 
