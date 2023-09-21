@@ -91,7 +91,7 @@ Screenshot from LinusTechTips
 
 | Benefits\Method                                              | WSL                                            | Virtual Machine                         | Dual Boot   |
 | ------------------------------------------------------------ | ---------------------------------------------- | --------------------------------------- | ----------- |
-| Close integration with your current system (shared files, etc) | Yes                                            | No                                      | No          |
+| Close integration with your current system (shared files, etc) | Yes                                            | Part                                      | Part          |
 | Full-featured Linux                                          | No (sometimes GUI won't work)                  | Yes                                     | Yes         |
 | Easy to install                                              | Yes                                            | Yes                                     | No          |
 | Suitable for every-day use                                   | Yes                                            | No                                      | Yes         |
@@ -104,32 +104,30 @@ Screenshot from LinusTechTips
 | Easy to customize and manage (change desktop wallpaper, tweak system parameters) | No                                             | Yes                                     | Yes         |
 | Performance                                                  | High                                           | Low                                     | Best        |
 | Hardware compatibility                                       | Adequate | Adequate | Good        |
-| **Our recommendation**                                       | Just enough to survive                         | Recommended for newcomers               | Enthusiasts |
+| **Our recommendation**                                       | Just enough to survive                         | Recommended for newcomers               | Gaining more experience |
 
 ---
 
 # Some FAQ after installing Linux
 
 - Q: I want to install software under `D:\Program Files`. Where is it?
-  - A: Linux have no `C:` or `D:`. Installing everything under the same disk is fine
+  - A: Linux have no `C:` or `D:`. Different disks (partitions) are mounted at different path.
 
 - Q: Where are my documents, photos, films... stored?
   - A: You have a dedicated folder for all your personal files. If your username is `focs` then all your files lie under `/home/focs`. This is also the default startup folder of your file manager.
 
 - Q: Where can I find software? 
 
-  - A: In most cases you don't need to Baidu the software anymore. You have a *package manager* on your system that automatically grabs the software for you. S
-ee the following slides for details.
-
-
-
+  - A: In most cases you don't need to search online for a long time to get the installer. You have a *package manager* on your system that automatically grabs the software for you. 
 
 ---
 
 
 # Administering a Linux system
 
-Linux is pretty much designed around a command-line shell. A _shell_ is a program that interacts with the operating system _kernel_: you issue commands via the shell, and the OS does it for you. In order to master Linux, some basic shell knowledge is necessary.
+Linux is pretty much designed around a command-line *shell* (think of it as a far more powerful version of `cmd`). In order to master Linux, some basic shell knowledge is necessary.
+
+To launch a command-line shell, you may press **Ctrl**+**Alt**+**T** on Ubuntu and FOCS Debian; or you may find the application named `Terminal` in the application grid. macOS users may find themselves acquainted with the Terminal app.
 
 ---
 # Alternatives of common Windows tools
@@ -149,11 +147,19 @@ Linux is pretty much designed around a command-line shell. A _shell_ is a progra
 
 - Solidworks -> FreeCAD
 
+- Games that do not support Linux -> Lutris
+
 ---
 
 # Where can I find help and support
 
-- Check your distro's Wiki. For example, Ubuntu Wiki is hosted at https://wiki.ubuntu.com
-- Arch Linux Wiki often have know-how that you want. Check https://wiki.archlinux.org if you can't find help on your distro Wiki
+- Check your distro's Wiki. For example, Ubuntu Wiki is hosted at https://wiki.ubuntu.com; Debian at https://wiki.debian.org
+- Arch Linux Wiki often have the know-how that you want. Check https://wiki.archlinux.org if you can't find help on your distro Wiki
 - Join FOCS Mattermost! We are available at https://focs.ji.sjtu.edu.cn/mm at any time. You are always welcomed!
-- You may also join a local Linux User Group. SJTU have its own Linux User Group; check https://sjtug.org for how to join them
+- You may also join a local Linux User Group. SJTU has its own Linux User Group; check https://sjtug.org/contacts for how to join them
+
+---
+
+# Let's begin the Install Party!
+
+Check the documentation of your preferred installation method.
