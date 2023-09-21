@@ -13,7 +13,7 @@ FOCS Group
 
 # What is Linux
 
-Linux kernel has just past its 32nd birthday. In many devices, including web servers, smartphones, electric cars, and of course on Steam Decks, you can find Linux.
+Linux has just past its 32nd birthday. In many devices, including web servers, smartphones, electric cars, and of course on Steam Decks, you can find Linux.
 
 Linux is an operating system *kernel*. Kernel means "core; central part" in English. Linux on itself can only respond to hardware events; there are no ways to interact with the Linux kernel directly.
 
@@ -24,13 +24,15 @@ People bundle software (browsers, file managers, etc.) together with the Linux k
 
 Today, we will help you to install a Linux distribution on your computer. You can choose Ubuntu, one of the most popular Linux distributions; or choose FOCS Debian, a Debian-based distribution which is developed by and for fellow JIers. Also you can choose other distributions.
 
+### Notes for macOS users
+
+If you purchased your Mac after 2020, it is highly likely that your Mac features an Apple silicon processor. Apple Silicon processors can't run the software required by some JI courses, including Vivado and Solidworks. You are **highly recommended** to prepare a Windows computer as a backup. 
+
 ---
 
 # Linux and Linux Distributions
 
 ![h:500px](https://github.com/wznmickey/linuxParty/assets/44784663/4c790df3-de1a-4674-babb-f2f75bce0fd9)
-
-Screenshot from LinusTechTipss
 
 ---
 
@@ -115,7 +117,7 @@ Screenshot from LinusTechTipss
 
 - Q: Where can I find software? 
 
-  - A: In most cases you don't need to search online for a long time to get the installer. You have a *package manager* on your system that automatically grabs the software for you. 
+  - A: In most cases you don't need to search online for a long time to get the installer. You have a *package manager* on your system that automatically grabs the software for you. More details later.
 
 ---
 
@@ -126,25 +128,37 @@ Linux is pretty much designed around a command-line *shell* (think of it as a fa
 
 To launch a command-line shell, you may press **Ctrl**+**Alt**+**T** on Ubuntu and FOCS Debian; or you may find the application named `Terminal` in the application grid. macOS users may find themselves acquainted with the Terminal app.
 
+
+---
+# Package Manager and installing software
+
+Most distribution have a built-in App Store coming with the installation. Installing software is a one-click there.
+
+However, some command-line only software (like `gcc`) needs to be installed via the *package manager*. Package managers automatically connect to a central software repository, download and install software for you. For Ubuntu and FOCS Debian, the package manager used is apt. Software installation is made easy and straightforward with the presence of package managers.
+
+- To install software, type `sudo apt install software-name` in a Terminal
+- To upgrade the system, run `sudo apt update && sudo apt upgrade`
+- To remove installed software, run `sudo apt remove software-name`
+- To search for something, run `apt search software-name`
+
 ---
 # Alternatives of common Windows tools
 
-1. Install by the App Store provided by your distribution, or
-2. Use CLI to control the package manager
+- Microsoft Office -> LibreOffice, WPS Office
 
-- Chrome, Edge, 360 Browser ... -> Firefox, Chromium
+- Chinese Input Method -> `ibus` (easier to configure), `fcitx5` (more powerful and more features)
 
-- Microsoft Office -> LibreOffice, WPS Office(not opensource)
+- QQ -> LinuxQQ at https://im.qq.com/linuxqq
 
-- Chinese Input Method -> `ibus` (easier to configure, bundled with Ubuntu by default), `fcitx5` (more powerful and more features)
+- MiKTeX, Overleaf TeX Editor -> Texmaker
 
-- MiKTeX, Overleaf TeX Editors -> Texmaker
+- Adobe Photoshop, Lightroom, etc. -> GIMP, darktable...
 
-- Adobe Photoshop -> GIMP
+- MATLAB, Mathematica, Vivado has native Linux versions
 
-- Solidworks -> FreeCAD
+- Solidworks -> FreeCAD, or check https://github.com/cryinkfly/SOLIDWORKS-for-Linux
 
-- Games that do not support Linux -> Lutris
+- Gaming -> Lutris, Steam (supports Windows games)
 
 ---
 
