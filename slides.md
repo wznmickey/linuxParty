@@ -22,6 +22,7 @@ Linux is an operating system *kernel*. Kernel means "core; central part" in Engl
 People bundle software (browsers, file managers, etc.) together with the Linux kernel to form a functional operating system. Many different people and companies bundle various software with Linux, each coming with their own configurations (wallpapers, theme, etc.) Various "flavors" of the Linux operating system, or *Linux distributions*, are thus created.
 
 ---
+# Installing Linux
 
 Today, we will help you to install a Linux distribution on your computer. You can choose Ubuntu, one of the most popular Linux distributions; or choose FOCS Debian, a Debian-based distribution which is developed by and for fellow JIers. Also you can choose other distributions.
 
@@ -39,7 +40,7 @@ Screenshot from LinusTechTips
 # FOCS Debian
 
 - Features a similar interface to Windows 10. Windows users will feel at home
-- Developed from base system to avoid redundant software as in the official Debian images
+- Developed from base system to avoid redundant software as in official Debian images
 - Aims to lower the time spent by students on installing software during labs
 - Has the following software pre-installed:
 
@@ -71,7 +72,7 @@ Screenshot from LinusTechTips
 
 # Benefits of having a Linux system
 
-- Survive 151, 280, 482 and other JI courses without having to worry about configuring your system
+- Survive 151, 280, 281, 482 and other JI courses without having to worry about configuring your system
 - More control of your computer; no disturbing desktop ads anymore, no worrying about Big Brother watching you ;)
 - A bonus point on your resume that can help you find a job
 - Most importantly... Linux is fun!
@@ -81,11 +82,51 @@ Screenshot from LinusTechTips
 # Ways to get a Linux system
 
 - Use a virtual machine
-- Use Windows Subsystem on Linux - WSL
+- Use Windows Subsystem for Linux - WSL
 - Install a dual boot system
 - Only use Linux on your computer
 
 ---
+# Comparison of different installation methods
+
+| Benefits\Method                                              | WSL                                            | Virtual Machine                         | Dual Boot   |
+| ------------------------------------------------------------ | ---------------------------------------------- | --------------------------------------- | ----------- |
+| Close integration with your current system (shared files, etc) | Yes                                            | No                                      | No          |
+| Full-featured Linux                                          | No (sometimes GUI won't work)                  | Yes                                     | Yes         |
+| Easy to install                                              | Yes                                            | Yes                                     | No          |
+| Suitable for every-day use                                   | Yes                                            | No                                      | Yes         |
+
+---
+
+# Comparison of different installation methods
+| Benefits\Method | WSL|Virtual Machine|Dual Boot|
+|--|--|--|--|
+| Easy to customize and manage (change desktop wallpaper, tweak system parameters) | No                                             | Yes                                     | Yes         |
+| Performance                                                  | High                                           | Low                                     | Best        |
+| Hardware compatibility                                       | Adequate | Adequate | Good        |
+| **Our recommendation**                                       | Just enough to survive                         | Recommended for newcomers               | Enthusiasts |
+
+---
+
+# Some FAQ after installing Linux
+
+- Q: I want to install software under `D:\Program Files`. Where is it?
+  - A: Linux have no `C:` or `D:`. Installing everything under the same disk is fine
+
+- Q: Where are my documents, photos, films... stored?
+  - A: You have a dedicated folder for all your personal files. If your username is `focs` then all your files lie under `/home/focs`. This is also the default startup folder of your file manager.
+
+- Q: Where can I find software? 
+
+  - A: In most cases you don't need to Baidu the software anymore. You have a *package manager* on your system that automatically grabs the software for you. S
+ee the following slides for details.
+
+
+
+
+---
+
+
 # Administering a Linux system
 
 Linux is pretty much designed around a command-line shell. A _shell_ is a program that interacts with the operating system _kernel_: you issue commands via the shell, and the OS does it for you. In order to master Linux, some basic shell knowledge is necessary.
