@@ -97,7 +97,7 @@ Linux is pretty much designed around a command-line shell. A _shell_ is a progra
 
 - Chrome, Edge, 360 Browser ... -> Firefox, Chromium
 
-- Microsoft Office -> LibreOffice, WPS Office
+- Microsoft Office -> LibreOffice, WPS Office(not opensource)
 
 - Chinese Input Method -> `ibus` (easier to configure, bundled with Ubuntu by default), `fcitx5` (more powerful and more features)
 
