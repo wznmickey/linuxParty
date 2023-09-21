@@ -1,6 +1,6 @@
 ---
 marp: true
-footer: 2023-09-23
+footer: 2023-09-22
 header: Linux Party
 paginate: true
 ---
