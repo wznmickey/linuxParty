@@ -14,11 +14,13 @@ FOCS Group
 
 # What is Linux
 
-Linux has just past its 32nd birthday. In many devices, including (almost all) web servers, Android smartphones, electric cars, and of course on Steam Decks, you can find Linux.
+Linux kernel has just past its 32nd birthday. In many devices, including web servers, smartphones, electric cars, and of course on Steam Decks, you can find Linux.
 
 Linux is an operating system *kernel*. Kernel means "core; central part" in English. Linux on itself can only respond to hardware events; there are no ways to interact with the Linux kernel directly.
 
 People bundle software (browsers, file managers, etc.) together with the Linux kernel to form a functional operating system. Many different people and companies bundle various software with Linux, each coming with their own configurations (wallpapers, theme, etc.) Various "flavors" of the Linux operating system, or *Linux distributions*, are thus created.
+
+---
 
 Today, we will help you to install a Linux distribution on your computer. You can choose Ubuntu, one of the most popular Linux distributions; or choose FOCS Debian, a Debian-based distribution which is developed by and for fellow JIers. Also you can choose other distributions.
 
@@ -64,8 +66,7 @@ Screenshot from LinusTechTips
 - Survive 151, 280, 482 and other JI courses without having to worry about configuring your system
 - More control of your computer; no disturbing desktop ads anymore, no worrying about Big Brother watching you ;)
 - A bonus point on your resume that can help you find a job
-- Most importantly...
-- Linux is fun! Welcome to the world of FOSS, Free and Open Source Software!
+- Most importantly... Linux is fun!
 
 ---
 
@@ -83,21 +84,20 @@ Linux is pretty much designed around a command-line shell. A _shell_ is a progra
 
 ---
 # Alternatives of common Windows tools
+
+1. Install by the App Store provided by your distribution, or
+2. Use CLI to control the package manager
+
 - Chrome, Edge, 360 Browser ... -> Firefox, Chromium
-  - Install by the App Store provided by your distribution, or
-  - Type in `sudo apt install firefox` or `sudo apt install chromium` in a terminal to install them (Debian and Ubuntu)
 
 - Microsoft Office -> LibreOffice, WPS Office
-  - It is likely that you have LibreOffice pre-installed on your system
-  - You may download WPS Office from the Internet if you wish
-- Your distribution likely provides you with a App Store. You may install apps there
+
 - Chinese Input Method -> `ibus` (easier to configure, bundled with Ubuntu by default), `fcitx5` (more powerful and more features)
 
 ---
 
 # Where can I find help and support
 
-- First things first: Search on **Google** in **English**. Searching on Baidu won't return useful results in most cases :)
 - Check your distro's Wiki. For example, Ubuntu Wiki is hosted at https://wiki.ubuntu.com
 - Arch Linux Wiki often have know-how that you want. Check https://wiki.archlinux.org if you can't find help on your distro Wiki
 - Join FOCS Mattermost! We are available at https://focs.ji.sjtu.edu.cn/mm at any time. You are always welcomed!
