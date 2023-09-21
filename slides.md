@@ -60,9 +60,6 @@ If you purchased your Mac after 2020, it is highly likely that your Mac features
 <img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/84f54de9-6904-4157-8647-880f234d61dc">
 </td>
 <td>
-<img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/6158f997-29c7-4cd2-aec7-69c35f86a371">
-</td>
-<td>
 <img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/a5cd4c8f-1d49-443e-a5c9-6605a5da384d">
 </td>
 </tr></table> 
