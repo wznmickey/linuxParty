@@ -58,9 +58,16 @@ Screenshot from LinusTechTips
 <td>
 <img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/84f54de9-6904-4157-8647-880f234d61dc">
 </td>
+<td>
+<img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/6158f997-29c7-4cd2-aec7-69c35f86a371">
+</td>
+<td>
+<img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/a5cd4c8f-1d49-443e-a5c9-6605a5da384d">
+</td>
 </tr></table> 
 
 ---
+
 # Benefits of having a Linux system
 
 - Survive 151, 280, 482 and other JI courses without having to worry about configuring your system
@@ -72,8 +79,8 @@ Screenshot from LinusTechTips
 
 # Ways to get a Linux system
 
+- Use a virtual machine
 - Use Windows Subsystem on Linux - WSL
-- Use a virtual machine 
 - Install a dual boot system
 - Only use Linux on your computer
 
@@ -93,6 +100,12 @@ Linux is pretty much designed around a command-line shell. A _shell_ is a progra
 - Microsoft Office -> LibreOffice, WPS Office
 
 - Chinese Input Method -> `ibus` (easier to configure, bundled with Ubuntu by default), `fcitx5` (more powerful and more features)
+
+- MiKTeX, Overleaf TeX Editors -> Texmaker
+
+- Adobe Photoshop -> GIMP
+
+- Solidworks -> FreeCAD
 
 ---
 
