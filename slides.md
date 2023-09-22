@@ -106,7 +106,7 @@ Screenshot from LinusTechTips
 # Where to get Linux installation images
 USTC Mirror is a good starting point. It is located at https://mirrors.ustc.edu.cn
 You can also use SJTU Mirror at https://mirrors.sjtug.sjtu.edu.cn 
-![h:450px](mirror.png)
+![h:450px](./img/mirror.png)
 
 ---
 
