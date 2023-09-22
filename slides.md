@@ -135,7 +135,7 @@ To launch a command-line shell, you may press **Ctrl**+**Alt**+**T** on Ubuntu a
 ---
 # Package Manager and installing software
 
-Most distribution have a built-in App Store coming with the installation. Installing software is a one-click there. They are developed based on various **package managers** and there are still many advance operations that you still need to use CLI to control. Package managers automatically connect to a central software repository (you may need to change it to a mirror in China), download and install software for you. For Ubuntu and FOCS Debian, the package manager used is apt. Software installation is made easy and straightforward with the presence of package managers.
+Most distribution have a built-in App Store based on some **package managers**. It is easy to use UI but some operations still need your CLI. Package managers automatically connect to a central software repository (you may need to change it to a mirror in China), download and install software for you. For Ubuntu and FOCS Debian, the package manager used is apt. Software installation is made easy and straightforward with the presence of package managers.
 
 - To install software, run `sudo apt install <software-name>`
 - To upgrade the system, run `sudo apt update && sudo apt upgrade`
@@ -148,13 +148,14 @@ There are also 2 new package managers called Snap and Flatpak. Their usage is si
 
 # Alternatives of common Windows softwares
 
+MATLAB, Mathematica, Vivado, feishu, QQ and many other softwares officially support Linux.
+
 - Microsoft Office -> *LibreOffice*, WPS Office
 - Chinese Input Method -> *`ibus`* (easier to configure), *`fcitx5`* (more powerful and more features)\
 - MiKTeX, Overleaf TeX Editor -> *Texmaker*, or plugins in your editor
 - Adobe Photoshop, Lightroom, etc. -> *GIMP*, *darktable* ...
 - Solidworks -> *FreeCAD*, or check https://github.com/cryinkfly/SOLIDWORKS-for-Linux
 - Games not support Linux -> *Lutris*
-MATLAB, Mathematica, Vivado, feishu, QQ and many other softwares officially support Linux.
 
 *softwares* in bold are open source.
 
@@ -162,13 +163,12 @@ MATLAB, Mathematica, Vivado, feishu, QQ and many other softwares officially supp
 
 # Where can I find help and support
 
-- Use `man` and `--help` to get help information.
+- Use `man` and `--help` to get local help.
 - Check your distro's Wiki. For example, Ubuntu Wiki is hosted at https://wiki.ubuntu.com; Debian at https://wiki.debian.org
 - Arch Linux Wiki often have the know-how that you want. Check https://wiki.archlinux.org if you can't find help on your distro Wiki
 - Search online and find solutions from forums and blogs.
 - Join FOCS Mattermost! We are available at https://focs.ji.sjtu.edu.cn/mm at any time. You are always welcomed!
 - You may also join a local Linux User Group. SJTU has its own Linux User Group; check https://sjtug.org/contacts for how to join them
-
 
 ---
 
