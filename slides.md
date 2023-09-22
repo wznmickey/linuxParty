@@ -13,11 +13,9 @@ FOCS Group
 
 # What is Linux
 
-Linux has just past its 32nd birthday. In many devices, including web servers, smartphones, electric cars, and of course on Steam Decks, you can find Linux.
+In many devices, including web servers, smartphones, electric cars, and of course on Steam Decks, you can find Linux.
 
-Linux is an operating system *kernel*. Kernel means "core; central part" in English. Linux on itself can only respond to hardware events; there are no ways to interact with the Linux kernel directly.
-
-People bundle software (browsers, file managers, etc.) together with the Linux kernel to form a functional operating system. Many different people and companies bundle various software with Linux, each coming with their own configurations (wallpapers, theme, etc.) Various "flavors" of the Linux operating system, or *Linux distributions*, are thus created.
+Linux kernel itself does not support many functions, so people bundle software (browsers, file managers, etc.) together with the Linux kernel to form a functional operating system. Many different people and companies bundle various software with Linux, each coming with their own configurations (wallpapers, theme, etc.) Various "flavors" of the Linux operating system, or *Linux distributions*, are thus created.
 
 ---
 # Installing Linux
@@ -26,13 +24,15 @@ Today, we will help you to install a Linux distribution on your computer. You ca
 
 ### Notes for macOS users
 
-If you purchased your Mac after 2020, it is highly likely that your Mac features an Apple silicon processor. Apple Silicon processors can't run the software required by some JI courses, including Vivado and Solidworks. You are **highly recommended** to prepare a Windows computer as a backup. 
+If you purchased your Mac after 2020, it is highly likely that your Mac features an Apple silicon processor. Apple Silicon processors can't run the software required by some JI courses, including Vivado and Solidworks. You are **highly recommended** to prepare a Windows computer(or other x86 based computer) as a backup. 
 
 ---
 
 # Linux and Linux Distributions
 
-![h:500px](https://github.com/wznmickey/linuxParty/assets/44784663/4c790df3-de1a-4674-babb-f2f75bce0fd9)
+![h:480px](https://github.com/wznmickey/linuxParty/assets/44784663/4c790df3-de1a-4674-babb-f2f75bce0fd9)
+
+Screenshot from LinusTechTips
 
 ---
 
@@ -105,7 +105,8 @@ If you purchased your Mac after 2020, it is highly likely that your Mac features
 ---
 # Where to get Linux installation images
 USTC Mirror is a good starting point. It is located at https://mirrors.ustc.edu.cn
-![mirror](mirror.png)
+You can also use SJTU Mirror at https://mirrors.sjtug.sjtu.edu.cn 
+![h:450px](mirror.png)
 
 ---
 
@@ -134,33 +135,35 @@ To launch a command-line shell, you may press **Ctrl**+**Alt**+**T** on Ubuntu a
 ---
 # Package Manager and installing software
 
-Most distribution have a built-in App Store coming with the installation. Installing software is a one-click there.
+Most distribution have a built-in App Store coming with the installation. Installing software is a one-click there. They are developed based on various **package managers** and there are still many advance operations that you still need to use CLI to control.
 
-However, some command-line only software (like `gcc`) needs to be installed via the *package manager*. Package managers automatically connect to a central software repository, download and install software for you. For Ubuntu and FOCS Debian, the package manager used is apt. Software installation is made easy and straightforward with the presence of package managers.
+Package managers automatically connect to a central software repository (you may need to change it to a mirror in China), download and install software for you. For Ubuntu and FOCS Debian, the package manager used is apt. Software installation is made easy and straightforward with the presence of package managers.
 
-- To install software, type `sudo apt install software-name` in a Terminal
+- To install software, type `sudo apt install <software-name>` in a Terminal
 - To upgrade the system, run `sudo apt update && sudo apt upgrade`
-- To remove installed software, run `sudo apt remove software-name`
-- To search for something, run `apt search software-name`
+- To remove installed software, run `sudo apt remove <software-name>`
+- To search for something, run `apt search <software-name>`
+  
+There are also 2 new package managers called Snap and Flatpak. Their usage is similar to apt.
 
 ---
-# Alternatives of common Windows tools
+# Alternatives of common Windows softwares
 
-- Microsoft Office -> LibreOffice, WPS Office
+- Microsoft Office -> *LibreOffice*, WPS Office
 
-- Chinese Input Method -> `ibus` (easier to configure), `fcitx5` (more powerful and more features)
+- Chinese Input Method -> *`ibus`* (easier to configure), *`fcitx5`* (more powerful and more features)
 
-- QQ -> LinuxQQ at https://im.qq.com/linuxqq
+- MiKTeX, Overleaf TeX Editor -> *Texmaker*, or plugins in your editor
 
-- MiKTeX, Overleaf TeX Editor -> Texmaker
+- Adobe Photoshop, Lightroom, etc. -> *GIMP*, *darktable* ...
 
-- Adobe Photoshop, Lightroom, etc. -> GIMP, darktable...
+- Solidworks -> *FreeCAD*, or check https://github.com/cryinkfly/SOLIDWORKS-for-Linux
 
-- MATLAB, Mathematica, Vivado has native Linux versions
+- Games not support Linux -> *Lutris*
 
-- Solidworks -> FreeCAD, or check https://github.com/cryinkfly/SOLIDWORKS-for-Linux
+MATLAB, Mathematica, Vivado, feishu, QQ and many other softwares officially support Linux.
 
-- Gaming -> Lutris, Steam (supports Windows games)
+*softwares* in bold are open source.
 
 ---
 
