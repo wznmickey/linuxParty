@@ -24,7 +24,7 @@ Today, we will help you to install a Linux distribution on your computer. You ca
 
 ### Notes for macOS users
 
-If you purchased your Mac after 2020, it is highly likely that your Mac features an Apple silicon processor. Apple Silicon processors can't run the software required by some JI courses, including Vivado and Solidworks. You are **highly recommended** to prepare a Windows computer(or other x86 based computer) as a backup. 
+If you purchased your Mac after 2020, it is highly likely that your Mac features an Apple silicon processor. Apple Silicon processors can't run the software required by some JI courses, including Vivado and Solidworks. You are **highly recommended** to prepare a Windows computer (or other x86 based computer) as a backup. 
 
 ---
 
@@ -91,6 +91,7 @@ Screenshot from LinusTechTips
 | Full-featured Linux                                          | No (sometimes GUI won't work)                  | Yes                                     | Yes         |
 | Easy to install                                              | Yes                                            | Yes                                     | No          |
 | Suitable for every-day use                                   | Yes                                            | No                                      | Yes         |
+| Performance                                                  | High                                           | Low                                     | Best        |
 
 ---
 
@@ -98,9 +99,8 @@ Screenshot from LinusTechTips
 | Benefits\Method | WSL|Virtual Machine|Dual Boot|
 |--|--|--|--|
 | Easy to customize and manage (change desktop wallpaper, tweak system parameters) | No                                             | Yes                                     | Yes         |
-| Performance                                                  | High                                           | Low                                     | Best        |
 | Hardware compatibility                                       | Adequate | Adequate | Good        |
-| **Our recommendation**                                       | Just enough to survive                         | Recommended for newcomers               | Gaining more experience |
+| **Our recommendation**                                       | Just enough to survive                         | Recommended for newcomers               | Gaining more experience and fun |
 
 ---
 # Where to get Linux installation images
@@ -135,11 +135,9 @@ To launch a command-line shell, you may press **Ctrl**+**Alt**+**T** on Ubuntu a
 ---
 # Package Manager and installing software
 
-Most distribution have a built-in App Store coming with the installation. Installing software is a one-click there. They are developed based on various **package managers** and there are still many advance operations that you still need to use CLI to control.
+Most distribution have a built-in App Store coming with the installation. Installing software is a one-click there. They are developed based on various **package managers** and there are still many advance operations that you still need to use CLI to control. Package managers automatically connect to a central software repository (you may need to change it to a mirror in China), download and install software for you. For Ubuntu and FOCS Debian, the package manager used is apt. Software installation is made easy and straightforward with the presence of package managers.
 
-Package managers automatically connect to a central software repository (you may need to change it to a mirror in China), download and install software for you. For Ubuntu and FOCS Debian, the package manager used is apt. Software installation is made easy and straightforward with the presence of package managers.
-
-- To install software, type `sudo apt install <software-name>` in a Terminal
+- To install software, run `sudo apt install <software-name>`
 - To upgrade the system, run `sudo apt update && sudo apt upgrade`
 - To remove installed software, run `sudo apt remove <software-name>`
 - To search for something, run `apt search <software-name>`
@@ -147,20 +145,15 @@ Package managers automatically connect to a central software repository (you may
 There are also 2 new package managers called Snap and Flatpak. Their usage is similar to apt.
 
 ---
+
 # Alternatives of common Windows softwares
 
 - Microsoft Office -> *LibreOffice*, WPS Office
-
-- Chinese Input Method -> *`ibus`* (easier to configure), *`fcitx5`* (more powerful and more features)
-
+- Chinese Input Method -> *`ibus`* (easier to configure), *`fcitx5`* (more powerful and more features)\
 - MiKTeX, Overleaf TeX Editor -> *Texmaker*, or plugins in your editor
-
 - Adobe Photoshop, Lightroom, etc. -> *GIMP*, *darktable* ...
-
 - Solidworks -> *FreeCAD*, or check https://github.com/cryinkfly/SOLIDWORKS-for-Linux
-
 - Games not support Linux -> *Lutris*
-
 MATLAB, Mathematica, Vivado, feishu, QQ and many other softwares officially support Linux.
 
 *softwares* in bold are open source.
