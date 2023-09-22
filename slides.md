@@ -162,10 +162,13 @@ MATLAB, Mathematica, Vivado, feishu, QQ and many other softwares officially supp
 
 # Where can I find help and support
 
+- Use `man` and `--help` to get help information.
 - Check your distro's Wiki. For example, Ubuntu Wiki is hosted at https://wiki.ubuntu.com; Debian at https://wiki.debian.org
 - Arch Linux Wiki often have the know-how that you want. Check https://wiki.archlinux.org if you can't find help on your distro Wiki
+- Search online and find solutions from forums and blogs.
 - Join FOCS Mattermost! We are available at https://focs.ji.sjtu.edu.cn/mm at any time. You are always welcomed!
 - You may also join a local Linux User Group. SJTU has its own Linux User Group; check https://sjtug.org/contacts for how to join them
+
 
 ---
 
