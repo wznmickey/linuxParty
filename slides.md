@@ -62,6 +62,10 @@ Screenshot from LinusTechTips
 <td>
 <img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/a5cd4c8f-1d49-443e-a5c9-6605a5da384d">
 </td>
+<td>
+<img  height="100" src="https://github.com/Bunyod-Suvonov/linuxParty/assets/109164894/0949216b-3fd3-467b-8b86-b6011468b393">
+</td>
+
 </tr></table> 
 
 ---
