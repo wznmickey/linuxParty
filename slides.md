@@ -156,7 +156,7 @@ There are also 2 new package managers called Snap and Flatpak. Their usage is si
 
 # Alternatives of common Windows softwares
 
-MATLAB, Mathematica, Vivado, feishu, QQ and many other softwares officially support Linux.
+MATLAB, Mathematica, Vivado, feishu, QQ, wechat and many other softwares officially support Linux now.
 
 - Microsoft Office -> *LibreOffice*, WPS Office
 - Chinese Input Method -> *`ibus`* (easier to configure), *`fcitx5`* (more powerful and more features)\
