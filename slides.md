@@ -110,7 +110,11 @@ Screenshot from LinusTechTips
 # Where to get Linux installation images
 USTC Mirror is a good starting point. It is located at https://mirrors.ustc.edu.cn
 You can also use SJTU Mirror at https://mirrors.sjtug.sjtu.edu.cn 
-![h:450px](./img/mirror.png)
+Quick link: 
+- ubuntu: https://mirror.sjtu.edu.cn/ubuntu-cdimage/releases/
+- debian: https://mirror.sjtu.edu.cn/debian-cdimage/ports/current/
+- deepin: https://mirror.sjtu.edu.cn/deepin-cd/releases/
+![h:200px](./img/mirror.png)
 
 ---
 
