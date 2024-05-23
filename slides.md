@@ -36,7 +36,7 @@ Screenshot from LinusTechTips
 
 ---
 
-# FOCS Debian （Ignore it）
+# FOCS Debian （Still developing please ignore it）
 
 - Features a similar interface to Windows 10. Windows users will feel at home
 - Developed from base system to avoid redundant software as in official Debian images
