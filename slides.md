@@ -4,7 +4,7 @@ paginate: true
 ---
 # **Linux Party**
 
-2023-09-22
+2024-05-26
 
 FOCS Group
 
